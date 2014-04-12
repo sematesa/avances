@@ -1,0 +1,437 @@
+﻿body
+{
+	font-family: Arial, Sans-Serif;
+	margin: 0;
+}
+
+#contenedor_index{
+	width: 1150px; 
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	min-height: 863px;
+	max-height: 863px;
+	
+	background-image: url("images/principal.png");
+	/*------------------------------------------*/
+		box-shadow: 0px 0px 10px 10px #888;
+
+	-webkit-box-shadow: 0px 0px 10px 10px #888;
+  	-moz-box-shadow: 0px 0px 10px 10px #888;
+  	/*------------------------------------------*/
+}
+
+#logos{
+	width: 1150px; 
+	margin-right: auto;
+	margin-left: auto;
+	height: 350px;
+	
+}
+
+#name{
+	width: 1150px; 
+	margin-right: auto;
+	margin-left: auto;
+	height: 400px;
+	
+}
+
+#indice_lista{
+	/*list-style:none;*/
+	list-style-image: url(images/ok.png);
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+#indice_lista a{
+	color: #0011FF;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 60px;
+
+}
+
+#indice_lista a:hover{
+	color: #FF9900;
+}
+
+#enlace{
+	width: 1150px; 
+	margin-right: auto;
+	margin-left: auto;
+	height: 113px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+
+#enlace a img{
+	margin-right: 35px;
+}
+
+#container{ 
+	width: 1150px; 
+	/*margin: 40px auto; */
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 701px;
+	max-height: 701px;
+	overflow: auto;
+	float: left;
+
+	
+	
+}
+
+h1{ 
+	font-size: 1.5em; 
+	font-weight: bold; 
+}
+
+hr{ 
+	clear: both; 
+}
+
+#album{
+	width: 1080px;
+	margin-top: 22px;
+	/*margin-right: auto;*/
+	margin-left: 65px;
+
+	/*border: 1px solid #f00;*/
+}
+
+.thumbnails a
+{
+	
+	display: block;
+	float: left;
+	margin-right: 40px;
+	text-decoration: none;
+
+}
+
+#comentario{
+	width: 308px;
+	height: 65px;
+	
+	margin-bottom: 4px;
+	text-align: center;
+	text-decoration: none;
+	color: #002384;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+
+#contenedor_general{
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+#encabezado_down{
+	background-color: #DEE0EA;
+	width: 1200px;
+	height: 153px;
+	margin: 0px;
+	padding-top: 15px;
+}
+
+
+#encabezado{
+	height: 93px;
+	width: 1200px;
+	margin-top: 15px;
+	background-image: url("images/encabezado.png");
+	box-shadow: 0px 5px 10px -2px #000;
+	color: #FFFFFF;
+	font-size: 28px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 1.7em;
+
+	-webkit-box-shadow: 0px 5px 10px -2px #000;
+  	-moz-box-shadow: 0px 5px 10px -2px #000;
+
+}
+
+#submenu{
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+
+#lateral_izquierda{
+	height: 794px;
+	width: 25px;
+	float: left;
+	background-image: url("images/left.png");
+}
+
+#lateral_derecha{
+	height: 794px;
+	width: 25px;
+	float: right;
+	background-image: url("images/right.png");
+}
+
+#pie_pagina{
+	height: 93px;
+	width: 1150px;
+	background-image: url("images/pie.png");
+	margin-top: 701px;
+	margin-left: 25px;
+}
+#paginas{
+	width: 100%;
+	height: 25px;
+	/*clear: both;*/
+}
+
+#tabla_paginas{
+	float: right;
+}
+
+#tabla_paginas tr .arrow{
+	width: 30px;
+/*	border: 1px solid #000;*/
+}
+
+#tabla_paginas tr td a{
+	width: 10px;
+	text-decoration: none;
+	
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 1px solid #000;*/
+}
+
+
+
+#tabla_paginas tr td input{
+	width: 30px;
+	font-weight: bold;
+	color: #002384;
+	text-align: center;
+	border: 0px;
+}
+
+
+#tabla_indicaciones{
+	width: 1034px;
+	border-collapse: collapse;
+	font-size: 12px;
+	/*border: 1px solid #0000FF;*/
+}
+
+#tabla_indicaciones tr th{
+	background-color:  #0000FF ;
+	border: 1px solid #0000FF;
+	color: #FFFFFF ;
+}
+
+#tabla_indicaciones tr td{
+	
+	border: 1px solid #0000FF;
+	text-align: center;
+	
+}
+
+.dt_indicaciones{
+	clear:both;
+	margin-top: 20px;
+}
+
+#tabla_indicaciones tr .amarillo{
+	
+	background-color:  #FFFF00 ;
+}
+
+#tabla_indicaciones tr .naranja{
+	
+	background-color:  #FF9900 ;
+}
+
+#tabla_indicaciones tr .rojo{
+	
+	background-color:  #FF0000 ;
+}
+
+#tabla_indicaciones .impar{
+	
+}
+
+#tabla_indicaciones .par{
+	background-color: #CEE3F6;
+}
+
+
+#tabla_indicaciones .impar:hover{
+	background-color:  #9FF781 ;
+}
+
+#tabla_indicaciones .par:hover{
+	background-color:  #9FF781 ;
+}
+
+.d_simbologia{
+	clear: both;
+	padding-right: 45px;
+}
+
+.simbologia{
+	font-size: 10px;
+	float: right;
+}
+
+.simbologia tr .ind_amarillo{
+	width: 20px;
+	background-color:  #FFFF00 ;
+	border: 1px solid #0000FF ;
+}
+.simbologia tr .ind_naranja{
+	width: 20px;
+	background-color:  #FF9900 ;
+	border: 1px solid #0000FF ;
+}
+
+.simbologia tr .ind_rojo{
+	width: 20px;
+	background-color:  #FF0000 ;
+	border: 1px solid #0000FF ;
+}
+
+
+#titulo_ta{
+	font-size: 16px;
+	line-height: 2em;
+}
+
+
+#menu_pie{
+	text-align: right;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-top: 60px;
+	font-weight: bold;
+}
+
+#menu_pie a{
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+#tabla_totales{
+	width: 350px;
+	float: left;
+	position: absolute;
+	padding-left: 30px;
+	padding-top: 70px;
+
+	/*border: 1px solid #0000FF;*/
+}
+
+#titulo1{
+	width: 550px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#chart_ei{
+	width: 550px;
+	height: 290px;
+	float: left;
+
+	
+	padding-left: 30px;
+	
+	
+}
+
+
+
+#titulo1{
+	width: 550px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#titulo2{
+	clear: both;
+	width: 550px;
+	text-align: center;
+	font-weight: bold;
+	float: right;
+}
+
+#chart_hc{
+	width: 550px;
+	height: 300px;
+	clear: both;
+	float: right;
+	padding-top: 30px;	
+	
+}
+
+
+
+#chartdiv{
+	width: 750px;
+	height: 650px;
+	float: right;	
+	/*position: absolute;*/
+	/*border: 1px solid #0000FF;*/
+	
+}
+
+#tabla_conteo{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+	/*border: 1px solid #0000FF;*/
+}
+
+#titulo_disciplina{
+	width: 100%;
+	text-align: center;
+}
+
+#tabla_conteo tr th{
+	background-color:  #0000FF ;
+	border: 1px solid #0000FF;
+	color: #FFFFFF ;
+}
+
+#tabla_conteo tr td{
+	
+	border: 1px solid #0000FF;
+	text-align: center;
+	
+}
+#tabla_conteo tr:hover{
+	background-color:  #DEE0EA ;
+}
+
+g text tspan{
+	/*display: none;*/
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/*
+.thumbnails a img{ 
+	border: solid 1px Black; 
+}
+
+.thumbnails a:hover img{ border: solid 1px #aaa }
+
+*/
