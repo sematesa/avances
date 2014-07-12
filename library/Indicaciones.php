@@ -56,7 +56,8 @@
 				".$registro['posicion'].",
 				'".$registro['fecha']."',
 				".$registro['id_referencia'].",
-				'".$registro['id_ducto']."'
+				'".$registro['id_ducto']."',
+				'".$registro['id_usuario']."'
 				)";
 			$this->conexion->query($sql);
 			return $this->conexion->insert_id ;
