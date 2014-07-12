@@ -805,8 +805,6 @@ div.accion2{
 }
 
 
-
-
 table.tabla_contenido{
 
 	margin-top: 50px;
@@ -814,6 +812,7 @@ table.tabla_contenido{
 	border: 1px solid #484848 ;
 	border-collapse: collapse;
 }
+
 table.tabla_contenido th{
 	border: 1px solid #484848 ;
 	border-collapse: collapse;
@@ -825,7 +824,7 @@ table.tabla_contenido td.info{
 	width: 44%;
 	border: 1px solid #484848 ;
 	border-collapse: collapse;
-	background: #FFFFFF ;
+	/*background: #FFFFFF ;*/
 	color:#484848 ;
 }
 
@@ -833,7 +832,7 @@ table.tabla_contenido td.info_dia{
 	
 	border: 1px solid #484848 ;
 	border-collapse: collapse;
-	background: #FFFFFF ;
+	/*background: #FFFFFF ;*/
 	color:#484848 ;
 }
 
@@ -841,7 +840,7 @@ table.tabla_contenido td.acciones{
 	width: 12%;
 	border: 1px solid #484848 ;
 	border-collapse: collapse;
-	background: #FFFFFF ;
+	/*background: #FFFFFF ;*/
 	color:#484848 ;
 }
 
@@ -866,7 +865,7 @@ table.tabla_contenido_indicaciones td.info{
 	/*width: 45%;*/
 	border: 1px solid #484848 ;
 	border-collapse: collapse;
-	background: #FFFFFF ;
+	/*background: #FFFFFF ;*/
 	color:#484848 ;
 }
 
@@ -874,11 +873,9 @@ table.tabla_contenido_indicaciones td.acciones{
 	width: 10%;
 	border: 1px solid #484848 ;
 	border-collapse: collapse;
-	background: #FFFFFF ;
+	/*background: #FFFFFF ;*/
 	color:#484848 ;
 }
-
-
 
 
 div.accion{
@@ -902,3 +899,8 @@ div.accion{
 	font-weight: bold;
 }
 
+table.tabla_contenido tr:hover{
+	background-color: #E3E3E3; 
+}
+table.tabla_contenido_indicaciones tr:hover{
+	background-color: #E3E3E3; }
