@@ -96,6 +96,7 @@
 			
 			$_POST['fotografia'] = '' ;
 			$_POST['posicion'] = 0 ;
+			$_POST['id_usuario']= $_SESSION['id_usuario'];
 			$id_insert = $indicaciones->insert($_POST);	
 			if(!empty($_FILES['fotografia']['tmp_name'])){
 				$pos = $posicion_f + 1  ;
