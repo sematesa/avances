@@ -106,7 +106,8 @@ session_start() ;
 <body>
 	<div class="border">
 		<div id="bg">
-			background
+			
+
 		</div>
 		<div class="page">
 			<div class="sidebar">
@@ -189,7 +190,7 @@ session_start() ;
 							
 								foreach ($array_areas as $value) {
 									?>
-										<tr>
+										<tr >
 											<td class="info"><?php echo $value['descripcion']; ?></td>
 											<td class="info"><?php echo $value['ubicacion']; ?></td>
 											
